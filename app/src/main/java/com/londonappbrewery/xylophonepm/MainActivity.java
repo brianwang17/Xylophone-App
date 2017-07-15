@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
         Log.d("Xylophone", "Green Button Clicked!");
         mSoundPool.play(mFSoundId, LEFT_VOLUME, RIGHT_VOLUME, PRIORITY, NO_LOOP, NORMAL_PLAY_RATE);
     }
-
+//
     public void playG(View v) {
         Log.d("Xylophone", "Turquoise Button Clicked!");
         mSoundPool.play(mGSoundId, LEFT_VOLUME, RIGHT_VOLUME, PRIORITY, NO_LOOP, NORMAL_PLAY_RATE);
